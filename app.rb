@@ -1,7 +1,7 @@
 require_relative 'config/environment'
 
   configure do
-    enable :sessions 
+    enable :sessions
     set :session_secret, "Grizzly"
   end
 
